@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.header{
+    background-color: #1f2937
+}
+.header-container-text{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.header-item{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    gap: 20px;
+}
+.header-logo{
+    color: #f9faf8;
+    font-size: 20px;
+}
+.header-link-1,
+.header-link-2,
+.header-link-3{
+    color: #e5e7eb;
+    font-size: 15px;
+
+}
+.header-link-1{
+    margin-left: auto;
+}
+.hero{
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+}
+.hero-content-1{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 40%;
+}
+
+.hero-text{
+    font-size: 40px;
+    color: #f9faf8;
+    font-weight:bolder;
+}
+/** to the next section **/
+.section2 { margin-top: 50px;
+margin-bottom: 50px;}
+.section2-header{
+    display: flex;
+    justify-content: center;
+}
+.section2-header-text{
+    font-size: 36px;
+    color: #1f2936;
+    font-weight:bold;
+}
+.section2-shapes{
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    height: 200px;
+}
+.section2-shapes > *{
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    flex: 1;
+    }
+.section2-text{
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+/** to the next section**/
+.section3{
+    background-color: #e5e7eb;
+}
+.section3-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.section3-text1{
+    font-size: 36px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+}
